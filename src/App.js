@@ -1,20 +1,8 @@
-import React from 'react';
-import  './App.css';
+import React, {Component} from 'react';
 
-class App extends React.Component{
+class App extends Component {
   render(){
-
-    return (
-      <div className="App">
-      <h1>Y2matePro</h1>
-      <header className="App-header">
-      </header>
-      <p>Developed by Bytebotes.com</p>
-    </div>
-    )
+    return React.createElement('h1',null,'Hello y2matepro');
   }
 }
-
-
-
 export default App;
